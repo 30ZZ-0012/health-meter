@@ -25,5 +25,9 @@ group :development do
   gem 'fastri'
 end
 group :production do
-  gem 'pg', '0.21'
+  gem 'pg' , '~> 0.21.0'
+end
+
+group :development do
+  gem 'sqlite3' , '1.4.1'
 end
