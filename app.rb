@@ -12,7 +12,7 @@ get '/' do
   @evaluation =""
   # binding.pry
   random = rand(1..5)
-  if getPercentageOfWalk < 0.4
+  if getPercentageOfWalk > 0.4
     if random == 2
     @evaluation = "images/100.jpg"
     else
